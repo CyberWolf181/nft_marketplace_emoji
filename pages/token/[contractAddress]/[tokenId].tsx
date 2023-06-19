@@ -85,7 +85,7 @@ import {
     
 
     return(
-        <Container maxW={"1200px"} p={5} my={5}>
+        <Container maxW={"1200px"} p={5} my={5} backgroundColor={"#E8AA42"}>
             <SimpleGrid columns={2} spacing={6}>
                 <Stack spacing={"20px"}>
                     <Box borderRadius={"6px"} overflow={"hidden"}>
@@ -256,6 +256,6 @@ import {
   
     return {
       paths,
-      fallback: "blocking", // can also be true or 'blocking'
+      fallback: "blocking", 
     };
   };
