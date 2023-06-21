@@ -45,7 +45,7 @@ export default function Footer() {
         </Flex>
         </Box>
         <Image 
-            src="/kurt.png"
+            src="/Kurt.png"
             alt="Logo" 
             width={100}
             height={50}
