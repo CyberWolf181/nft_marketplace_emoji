@@ -107,8 +107,8 @@ import {
                         {Object.entries(nft?.metadata?.attributes || {}).map(
                         ([key, value]) => (
                             <Flex key={key} direction={"column"} alignItems={"center"} justifyContent={"center"} borderWidth={1}>
-                                <Text fontSize={"small"} >{value.trait_type}</Text>
-                                <Text fontSize={"small"} fontWeight={"bold"} >{value.value} </Text>
+                                <Text fontSize={"small"} >{(value as { trait_type: string }).trait_type}</Text>
+                                <Text fontSize={"small"} fontWeight={"bold"} >{(value as { value: string }).value} </Text>
 
                             </Flex>
                         )
